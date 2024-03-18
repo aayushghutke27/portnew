@@ -106,7 +106,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Ayush Ghutke, Welcome to my portfolio! I am a dynamic individual currently navigating the final year of my Bachelor's degree in Computer Science Engineering at the esteemed Indian Institute of Information Technology, Nagpur.
+      I’m Ayush Ghutke, Welcome to my portfolio! I am currently navigating the final year of my Bachelor's degree in Computer Science Engineering at the esteemed Indian Institute of Information Technology, Nagpur.
       Passionate about the fusion of creativity and technology, I am actively seeking opportunities to contribute as a UI/UX intern and product designer intern. With a solid foundation in both theoretical concepts and practical applications relevant to user experience (UX) and interface design,
       
       
