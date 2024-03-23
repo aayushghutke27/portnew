@@ -1,26 +1,27 @@
 import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
 import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
 import sliceAnnotation from 'assets/slice-annotation.png';
-import sliceAppLarge from 'assets/slice-app-large.jpg';
+import sliceAppLarge from 'assets/mirrar-app - large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceApp from 'assets/slice-app.jpg';
+import sliceApp from 'assets/mirrar-app.jpg';
 import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
 import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from 'assets/slice-background-bar.jpg';
-import sliceBackgroundLarge from 'assets/slice-background-large.jpg';
+import sliceBackgroundBar from 'assets/mirrar-background.jpg';
+import sliceBackgroundLarge from 'assets/mirrar-background.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
 import sliceBackground from 'assets/slice-background.jpg';
 import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
 import sliceIrl from 'assets/slice-irl.jpg';
-import sliceSidebarAnnotationsLarge from 'assets/slice-sidebar-annotations-large.png';
-import sliceSidebarAnnotationsPlaceholder from 'assets/slice-sidebar-annotations-placeholder.png';
-import sliceSidebarAnnotations from 'assets/slice-sidebar-annotations.png';
-import sliceSidebarLayersLarge from 'assets/slice-sidebar-layers-large.png';
-import sliceSidebarLayersPlaceholder from 'assets/slice-sidebar-layers-placeholder.png';
-import sliceSidebarLayers from 'assets/slice-sidebar-layers.png';
-import sliceSlidesLarge from 'assets/slice-slides-large.jpg';
-import sliceSlidesPlaceholder from 'assets/slice-slides-placeholder.jpg';
-import sliceSlides from 'assets/slice-slides.jpg';
+import sliceSidebarAnnotationsLarge from 'assets/virtual-1.jpg';
+import sliceSidebarAnnotationsPlaceholder from 'assets/virtual-1.jpg';
+import sliceSidebarAnnotations from 'assets/virtual-1.jpg';
+import sliceSidebarLayersLarge from 'assets/virtual-1.jpg';
+import sliceSidebarLayersPlaceholder from 'assets/virtual-1.jpg';
+import sliceSidebarLayers from 'assets/virtual.jpg';
+import sliceSlidesLarge from 'assets/virtual-2.jpg';
+import sliceSlidesPlaceholder from 'assets/virtual-2.jpg';
+import sliceSlides from 'assets/virtual-2.jpg';
+import { Button } from 'components/Button';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
 import { Meta } from 'components/Meta';
@@ -40,10 +41,9 @@ import { Fragment } from 'react';
 import { media } from 'utils/style';
 import styles from './Slice.module.css';
 
-const title = 'Biomedical image collaboration';
-const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+const title = 'MIRRAR Realistic Virtual Try-On App';
+const description ='MIRRAR Realistic Virtual Try-On App transforms shopping by offering immersive virtual trials for cosmetics like lipsticks, delivering an unparalleled shopping experience';
+const roles = ['Wireframing','User Research', 'UX Design', 'Interface Design'];
 
 export const Slice = () => {
   return (
@@ -59,7 +59,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://www.figma.com/proto/N7dqLg3Tl6tXiDcZATZ3HE/Virtual-Makeup-Try-On-for-MirrAR?page-id=0%3A1&type=design&node-id=207-3131&viewport=193%2C-311%2C0.03&t=mx6uwXdixtiwOwnj-1&scaling=scale-down&starting-point-node-id=207%3A3120&show-proto-sidebar=1&mode=design"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -75,18 +75,24 @@ export const Slice = () => {
         <ProjectSection>
           <ProjectSectionColumns centered className={styles.columns}>
             <div className={styles.imagesText}>
-              <ProjectSectionHeading>Bringing it together</ProjectSectionHeading>
+              <ProjectSectionHeading>Discover Your Perfect Look: Mirrar's Virtual Try-On!</ProjectSectionHeading>
+             
               <ProjectSectionText>
-                Teachers needed a better way to create collaborative group activities by
-                annotating slides on Slice. Before starting this project, a layer could
-                only be annotated by a single user, making it difficult for learners to
-                work together.
+              Experience the future of beauty with Mirrar's Virtual Try-On! Effortlessly explore a wide range of cosmetic products from home, confidently finding your perfect match in just a few clicks. 
+              Our advanced AR technology ensures a seamless and lifelike experience, allowing you to see how each product enhances your unique style and skin tone. 
+              Say hello to convenience and confidence with Mirrar's Virtual Try-On today!
+              
               </ProjectSectionText>
-              <ProjectSectionText>
-                Our solution was to allow users to be invited to a layer, where they can
-                see others’ annotations and make their own.
-              </ProjectSectionText>
+              <Button
+                    secondary
+                    className={styles.button}
+                    href="https://www.behance.net/gallery/190907385/MirrAR-Cosmetic-Virtual-Try-On-App"
+                  >
+                    Case Study
+                  </Button>
+              
             </div>
+           
             <div className={styles.sidebarImages}>
               <Image
                 className={styles.sidebarImage}
@@ -110,12 +116,9 @@ export const Slice = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
               <ProjectSectionText>
-                A problem we heard about often form users was that it was difficult to
-                find images they had previously seen or worked on. To solve this we added
-                a new tab that lists all previously annotated slides. In addition, we
-                added the ability to favorite slides, so if users find an interesting
-                slide they want to annotate later, they can easily save it to their
-                account.
+              At Mirrar, we're dedicated to refining your Virtual Try-On experience for effortless beauty exploration. 
+              With an ever-expanding selection of products, enhanced realism through precise color representation and facial mapping, and an intuitive interface, finding your perfect look has never been easier. 
+              Enjoy personalized recommendations and interactive tutorials within the platform, seamlessly transitioning from try-on to purchase with just a click. Discover the future of beauty with Mirrar Virtual Try-On today.
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -126,58 +129,8 @@ export const Slice = () => {
             />
           </ProjectSectionContent>
         </ProjectSection>
-        <ProjectSection padding="top">
-          <ProjectSectionContent className={styles.grid}>
-            <div className={styles.gridImage}>
-              <div className={styles.gridBackground}>
-                <Image
-                  srcSet={[sliceBackgroundBar, sliceBackgroundBarLarge]}
-                  placeholder={sliceBackgroundBarPlaceholder}
-                  alt=""
-                  role="presentation"
-                  sizes={`(max-width: ${media.mobile}px) 312px, (max-width: ${media.tablet}px) 408px, 514px`}
-                />
-              </div>
-              <div className={styles.gridForeground}>
-                <Image
-                  srcSet={[sliceAnnotation, sliceAnnotationLarge]}
-                  placeholder={sliceAnnotationPlaceholder}
-                  alt="An annotation preview popover with statistics for shape perimeter and area."
-                  sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
-                />
-              </div>
-            </div>
-            <div className={styles.gridText}>
-              <ProjectSectionHeading>Meaningful details</ProjectSectionHeading>
-              <ProjectSectionText>
-                Marking and annotating areas on high resolution biomedical images is the
-                core experience of the app, and it was easy to get lost or lose sense of
-                scale when zooming in on details. Adding measurements for the perimeter
-                and area of an annotation both helped to communicate the overall scale of
-                the image and how large the annotated feature is in comparison.
-              </ProjectSectionText>
-            </div>
-          </ProjectSectionContent>
-        </ProjectSection>
-        <ProjectSection>
-          <ProjectSectionContent>
-            <ProjectTextRow>
-              <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
-              <ProjectSectionText>
-                Real-time collaborative annotation facilitated better collaboration
-                between learners, and was much easier to run group exercises with the new
-                shared layers feature. Learners gave feedback that is was enjoyable to
-                work together and see what others were doing, and liked how interactive
-                and easy to use the application was.
-              </ProjectSectionText>
-            </ProjectTextRow>
-            <Image
-              src={sliceIrl}
-              placeholder={sliceIrlPlaceholder}
-              alt="Students at the University of New South Wales using the new collaborative annotation features"
-            />
-          </ProjectSectionContent>
-        </ProjectSection>
+        
+        
       </ProjectContainer>
       <Footer />
     </Fragment>

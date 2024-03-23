@@ -48,7 +48,7 @@ export const Home = () => {
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, details, projectOne, projectTwo, projectThree, projectFour,projectFive ];
+    const sections = [intro, details, projectOne, projectTwo, projectThree,projectFive ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -110,7 +110,7 @@ export const Home = () => {
         title="MIRRAR Realistic Virtual Try-On App"
         description="Design Mirrar realistic virtual try on makeup App"
         buttonText="View Project"
-        buttonLink="/projects/viba"
+        buttonLink="/projects/mirrar"
         //buttonLink="/projects/viba"
         
         
@@ -141,10 +141,10 @@ export const Home = () => {
         title="Delightful Bites, Delivered Right with FangoFood's "
         description="Your Ultimate Destination for Premium Non-Veg Delights and Fresh Dairy Goodness, Delivered to Your Doorstepe"
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/fango"
 
-        buttonText1="View Project"
-        buttonLink1=""
+        buttonText1="Interaction of Project"
+        buttonLink1="https://www.figma.com/proto/EGwTrz50cmxT3fj1zAPs11/Redesign-Fangofood?page-id=0%3A1&type=design&node-id=1-2&viewport=1564%2C528%2C0.07&t=tj5mwmS8rTTwdJck-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design"
 
         model={{
           type: 'laptop',
@@ -181,11 +181,11 @@ export const Home = () => {
         index={3}
         title="Elevate Your Stay: Cozio Hotel Booking App"
         description="Elevate your stay, book with ease where comfort meets convenience in every reservation."
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonText="View Project"
+        buttonLink="/projects/cozio"
 
-        buttonText1="View Project"
-        buttonLink1=""
+        buttonText1="Interaction of Project"
+        buttonLink1="https://www.figma.com/proto/m5qpsNgHKDASd2JeBiCzHG/Cozio?page-id=0%3A1&type=design&node-id=4-1220&viewport=418%2C-888%2C0.11&t=025ruaHlTndwUGV9-1&scaling=scale-down&starting-point-node-id=4%3A1220&show-proto-sidebar=1&mode=design"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -202,26 +202,7 @@ export const Home = () => {
         }}
       />
 
-<ProjectSummary
-        id="project-3"
-        sectionRef={projectFour}
-        visible={visibleSections.includes(projectFour.current)}
-        index={4}
-        title="Dream Bathrooms Await: Explore Elegance with Tapron"
-        description="Where Aesthetics Meet Functionality in Every Faucet, Your Journey to a Stylish Bathroom Begins Here"
-        buttonText="View project"
-        buttonLink="/projects/slice"
-        model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
-          textures: [
-            {
-              srcSet: [TTexture, TTextureLarge],
-              placeholder: TPlaceholder,
-            },
-          ],
-        }}
-      />
+
 
 <ProjectSummary
         id="project-2"
@@ -231,11 +212,11 @@ export const Home = () => {
         index={5}
         title="Elevate Your Stay: Cozio Hotel Booking App"
         description="Elevate your stay, book with ease where comfort meets convenience in every reservation."
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonText="View Project"
+        buttonLink="/projects/cincrave"
 
-        buttonText1="View Project"
-        buttonLink1=""
+        buttonText1="Interaction of Project"
+        buttonLink1="https://www.figma.com/proto/vUG1zvjScLnliXwNwXZmB9/Cincrave?page-id=0%3A1&type=design&node-id=312-363&viewport=-753%2C345%2C0.02&t=EBgjwM9b4B49xa1h-1&scaling=scale-down&starting-point-node-id=327%3A414&show-proto-sidebar=1&mode=design"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -264,7 +245,7 @@ export const Home = () => {
           imageUrl={flentCover}
           heading="Unlock Your Learning Potential"
           description="Learnfinity AI Chatbot - Your Personal Guide to Tailored Course Recommendations for Success!"
-          externalUrl="https://www.behance.net/gallery/170470277/Flent-UI"
+          externalUrl="https://www.figma.com/proto/z7YL8Op8xgWTInASguQl9C/Learnfinity?page-id=0%3A1&type=design&node-id=3-3677&viewport=336%2C265%2C0.02&t=AfQMIjtePlvI1pMo-1&scaling=scale-down&starting-point-node-id=3%3A3677&show-proto-sidebar=1&mode=design"
         />
         <Card
           imageUrl={tealfeedCover}

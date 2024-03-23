@@ -36,13 +36,9 @@ export const socialLinks = [
 
   {
     label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    url: 'https://figma.com/@ayushghutke',
     icon: 'figma',
   },
 
-  {
-    label: 'Github',
-    url: 'https://github.com/aayushghutke27',
-    icon: 'github',
-  },
+
 ];
