@@ -1,17 +1,12 @@
-import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
-import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
-import sliceAnnotation from 'assets/slice-annotation.png';
+
 import sliceAppLarge from 'assets/fango-app - large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceApp from 'assets/fango-app.jpg';
-import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
-import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from 'assets/mirrar-background.jpg';
+
 import sliceBackgroundLarge from 'assets/fango-background.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
 import sliceBackground from 'assets/slice-background.jpg';
-import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
-import sliceIrl from 'assets/slice-irl.jpg';
+
 import sliceSidebarAnnotationsLarge from 'assets/fango-1.jpg';
 import sliceSidebarAnnotationsPlaceholder from 'assets/fango-1.jpg';
 import sliceSidebarAnnotations from 'assets/fango-1.jpg';
@@ -54,7 +49,7 @@ export const fango = () => {
           src={sliceBackground}
           srcSet={`${sliceBackground.src} 1280w, ${sliceBackgroundLarge.src} 2560w`}
           placeholder={sliceBackgroundPlaceholder}
-          opacity={0.2}
+          opacity={0.8}
         />
         <ProjectHeader
           title={title}
@@ -75,13 +70,13 @@ export const fango = () => {
         <ProjectSection>
           <ProjectSectionColumns centered className={styles.columns}>
             <div className={styles.imagesText}>
-              <ProjectSectionHeading>Indulge in Premium Quality: Explore Fangofood's Delectable Selection of Meat, Eggs, and Dairy!</ProjectSectionHeading>
+              <ProjectSectionHeading>Indulge in Premium Quality: Explore Fangofood Delectable Selection of Meat, Eggs, and Dairy!</ProjectSectionHeading>
              
               <ProjectSectionText>
               Welcome to Fangofood.com, where quality meets convenience in every bite. 
               Discover an array of premium meats, farm-fresh eggs, and luscious dairy products carefully curated to tantalize your taste buds. 
               Our user-friendly interface ensures a seamless and visually captivating shopping experience, allowing you to browse, select, and purchase your favorites with ease.
-              Whether you're a culinary connoisseur or a home chef, Fangofood is your go-to destination for the finest ingredients. 
+              Whether you are a culinary connoisseur or a home chef, Fangofood is your go-to destination for the finest ingredients. 
               Dive into our virtual marketplace today and elevate your dining experience to new heights!
               
               </ProjectSectionText>

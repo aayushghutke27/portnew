@@ -106,14 +106,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m <Link href="">Ayush Ghutke,</Link> Welcome to my portfolio! I am currently navigating the final year of my Bachelor's degree in Computer Science Engineering at the esteemed Indian Institute of Information Technology, Nagpur.
-      Passionate about the fusion of creativity and technology, I am actively seeking opportunities to contribute as a UI/UX intern and product designer intern. With a solid foundation in both theoretical concepts and practical applications relevant to user experience (UX) and interface design,
-      
-      
+    Im <Link href="">Ayush Ghutke,</Link> Welcome to my portfolio! I am currently navigating the final year of my Bachelors degree in Computer Science Engineering at the esteemed Indian Institute of Information Technology, Nagpur.
+    Passionate about the fusion of creativity and technology, I am actively seeking opportunities to contribute as a UI/UX intern and product designer intern. 
+    With a solid foundation in both theoretical concepts and practical applications relevant to user experience (UX) and interface design.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-     Let's embark on a journey of innovation and creativity together. Welcome to a world where design meets functionality, and where every pixel tells a story.{' '}
-     I’m always down for hearing about new projects, so feel free to drop me a line.
+    Lets embark on a journey of innovation and creativity together. Welcome to a world where design meets functionality, and where every pixel tells a story.{' '}
+    Im always down for hearing about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );

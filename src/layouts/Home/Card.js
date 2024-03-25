@@ -4,7 +4,7 @@ import { media } from 'utils/style';
 import { Image } from 'components/Image';
 import styles from './Card.module.css';
 
-export const Card = ({ imageUrl, placeholderUrl, heading, description, externalUrl }) => {
+export const Card = ({ imageUrl, heading, description, externalUrl }) => {
   return (
     <a href={externalUrl} target="_blank" rel="noopener noreferrer">
       <div className={styles.card}>

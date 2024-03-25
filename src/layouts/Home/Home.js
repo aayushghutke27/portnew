@@ -2,7 +2,7 @@ import iiitnagpur from '../../assets/fango.gif';
 import pinterestCover from '../../assets/movie.gif';
 import tealfeedCover from '../../assets/graphic.jpg';
 import tealfeedCoverrr from '../../assets/UI.jpg';
-import flentCover from '../../assets/learn.gif';
+import flentCover from '../../assets/music.gif';
 import vibaPdp from '../../assets/viba-pdp.jpg';
 import vibaPdpLarge from '../../assets/viba-pdp-large.jpg';
 import vibaPdpPlaceholder from '../../assets/viba-pdp.jpg';
@@ -21,9 +21,9 @@ import Texture2 from 'assets/cozio.jpg';
 import TextureLarge from 'assets/cozio2.jpg';
 import TexturePlaceholder from 'assets/cozio2.jpg';
 import Texture from 'assets/cozio2.jpg';
-import TTextureLarge from 'assets/topon.jpg';
-import TPlaceholder from 'assets/topon.jpg';
-import TTexture from 'assets/topon.jpg';
+import TTextureLarge from 'assets/pureleaf.jpg';
+import TPlaceholder from 'assets/pureleaf.jpg';
+import TTexture from 'assets/pureleaf.jpg';
 import { Footer } from 'components/Footer';
 import { Card } from 'layouts/Home/Card';
 import { Meta } from 'components/Meta';
@@ -33,7 +33,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['User Interaction', 'User Experience', 'Product'];
+const disciplines = ['Interaction', 'User Experience', 'Product'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -48,7 +48,7 @@ export const Home = () => {
   const details = useRef();
 
   useEffect(() => {
-    const sections = [intro, details, projectOne, projectTwo, projectThree,projectFive ];
+    const sections = [intro, details, projectOne, projectTwo, projectThree, projectFour,projectFive ];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -181,7 +181,7 @@ export const Home = () => {
         index={3}
         title="Elevate Your Stay: Cozio Hotel Booking App"
         description="Elevate your stay, book with ease where comfort meets convenience in every reservation."
-        buttonText="View Project"
+        buttonText="View project"
         buttonLink="/projects/cozio"
 
         buttonText1="Interaction of Project"
@@ -202,7 +202,29 @@ export const Home = () => {
         }}
       />
 
-
+<ProjectSummary
+        id="project-3"
+        sectionRef={projectFour}
+        visible={visibleSections.includes(projectFour.current)}
+        index={4}
+        title="Discover Nature's Pure Essence: Pureleaf Tea - Your Path to Blissful Sipping!"
+        description="Sip pure bliss from our gardens to your cup with Pureleaf Tea's meticulously harvested leaves."
+        buttonText="View project"
+        buttonLink="/projects/pureleaf"
+        
+        buttonText1="Interaction of Project"
+        buttonLink1="https://www.figma.com/proto/QrehkOE4AP0pIyEQiN32j4/Pureleaf---Organic-tea-brand.?page-id=0%3A1&type=design&node-id=29-271&viewport=467%2C617%2C0.06&t=L7FzyhnjvuugAqfA-1&scaling=scale-down&starting-point-node-id=0%3A76&mode=design"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: [TTexture, TTextureLarge],
+              placeholder: TPlaceholder,
+            },
+          ],
+        }}
+      />
 
 <ProjectSummary
         id="project-2"
@@ -245,7 +267,7 @@ export const Home = () => {
           imageUrl={flentCover}
           heading="Unlock Your Learning Potential"
           description="Learnfinity AI Chatbot - Your Personal Guide to Tailored Course Recommendations for Success!"
-          externalUrl="https://www.figma.com/proto/z7YL8Op8xgWTInASguQl9C/Learnfinity?page-id=0%3A1&type=design&node-id=3-3677&viewport=336%2C265%2C0.02&t=AfQMIjtePlvI1pMo-1&scaling=scale-down&starting-point-node-id=3%3A3677&show-proto-sidebar=1&mode=design"
+          externalUrl="https://www.behance.net/gallery/170470277/Flent-UI"
         />
         <Card
           imageUrl={tealfeedCover}

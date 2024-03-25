@@ -1,17 +1,17 @@
-import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
-import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
-import sliceAnnotation from 'assets/slice-annotation.png';
+//import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
+//import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
+//import sliceAnnotation from 'assets/slice-annotation.png';
 import sliceAppLarge from 'assets/mirrar-app - large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceApp from 'assets/mirrar-app.jpg';
-import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
-import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from 'assets/mirrar-background.jpg';
+//import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
+//import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
+//import sliceBackgroundBar from 'assets/mirrar-background.jpg';
 import sliceBackgroundLarge from 'assets/mirrar-background.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
 import sliceBackground from 'assets/slice-background.jpg';
-import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
-import sliceIrl from 'assets/slice-irl.jpg';
+//import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
+//import sliceIrl from 'assets/slice-irl.jpg';
 import sliceSidebarAnnotationsLarge from 'assets/virtual-1.jpg';
 import sliceSidebarAnnotationsPlaceholder from 'assets/virtual-1.jpg';
 import sliceSidebarAnnotations from 'assets/virtual-1.jpg';
@@ -75,12 +75,12 @@ export const Slice = () => {
         <ProjectSection>
           <ProjectSectionColumns centered className={styles.columns}>
             <div className={styles.imagesText}>
-              <ProjectSectionHeading>Discover Your Perfect Look: Mirrar's Virtual Try-On!</ProjectSectionHeading>
+              <ProjectSectionHeading>Discover Your Perfect Look: Mirrars Virtual Try-On!</ProjectSectionHeading>
              
               <ProjectSectionText>
-              Experience the future of beauty with Mirrar's Virtual Try-On! Effortlessly explore a wide range of cosmetic products from home, confidently finding your perfect match in just a few clicks. 
+              Experience the future of beauty with Mirrars Virtual Try-On! Effortlessly explore a wide range of cosmetic products from home, confidently finding your perfect match in just a few clicks. 
               Our advanced AR technology ensures a seamless and lifelike experience, allowing you to see how each product enhances your unique style and skin tone. 
-              Say hello to convenience and confidence with Mirrar's Virtual Try-On today!
+              Say hello to convenience and confidence with Mirrars Virtual Try-On today!
               
               </ProjectSectionText>
               <Button
@@ -116,7 +116,7 @@ export const Slice = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
               <ProjectSectionText>
-              At Mirrar, we're dedicated to refining your Virtual Try-On experience for effortless beauty exploration. 
+              At Mirrar, we are dedicated to refining your Virtual Try-On experience for effortless beauty exploration. 
               With an ever-expanding selection of products, enhanced realism through precise color representation and facial mapping, and an intuitive interface, finding your perfect look has never been easier. 
               Enjoy personalized recommendations and interactive tutorials within the platform, seamlessly transitioning from try-on to purchase with just a click. Discover the future of beauty with Mirrar Virtual Try-On today.
               </ProjectSectionText>

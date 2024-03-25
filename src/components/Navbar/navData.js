@@ -1,12 +1,16 @@
 export const navLinks = [
-  {
-    label: 'Projects',
-    pathname: '/#project-1',
-  },
+
   {
     label: 'Details',
     pathname: '/#details',
   },
+
+  
+  {
+    label: 'Projects',
+    pathname: '/#project-1',
+  },
+ 
 
   {
     label: 'Contact',
@@ -36,9 +40,13 @@ export const socialLinks = [
 
   {
     label: 'Figma',
-    url: 'https://figma.com/@ayushghutke',
+    url: 'https://www.figma.com/@ayushghutke',
     icon: 'figma',
   },
 
-
+  //{
+  //  label: 'Github',
+  //  url: 'https://github.com/aayushghutke27',
+  //  icon: 'github',
+  //},
 ];

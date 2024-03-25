@@ -1,17 +1,12 @@
-import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
-import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
-import sliceAnnotation from 'assets/slice-annotation.png';
+
 import sliceAppLarge from 'assets/cozio-app - large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceApp from 'assets/cozio-app.jpg';
-import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
-import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from 'assets/mirrar-background.jpg';
+
 import sliceBackgroundLarge from 'assets/cozio-background.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
 import sliceBackground from 'assets/slice-background.jpg';
-import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
-import sliceIrl from 'assets/slice-irl.jpg';
+
 import sliceSidebarAnnotationsLarge from 'assets/cozio.jpg';
 import sliceSidebarAnnotationsPlaceholder from 'assets/cozio.jpg';
 import sliceSidebarAnnotations from 'assets/cozio-1.jpg';
@@ -81,7 +76,7 @@ export const cozio = () => {
               Step into the future of hotel booking with Cozio, where innovation meets elegance. 
               Say goodbye to the mundane and embrace seamless accommodation experiences infused with the magic of AI Chat Bot technology. 
               Discover a world where personalized recommendations and effortless booking await at your fingertips. 
-              Cozio isn't just a booking app; it's your gateway to a new era of travel sophistication. 
+              Cozio is not just a booking app; it is your gateway to a new era of travel sophistication. 
               Let Cozio elevate your journey, one intelligent suggestion at a time.
               
               </ProjectSectionText>

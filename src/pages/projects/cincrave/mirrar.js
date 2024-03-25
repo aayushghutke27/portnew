@@ -1,17 +1,12 @@
-import sliceAnnotationLarge from 'assets/slice-annotation-large.png';
-import sliceAnnotationPlaceholder from 'assets/slice-annotation-placeholder.png';
-import sliceAnnotation from 'assets/slice-annotation.png';
+
 import sliceAppLarge from 'assets/cin-app - large.jpg';
 import sliceAppPlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceApp from 'assets/cin-app.jpg';
-import sliceBackgroundBarLarge from 'assets/slice-background-bar-large.jpg';
-import sliceBackgroundBarPlaceholder from 'assets/slice-background-bar-placeholder.jpg';
-import sliceBackgroundBar from 'assets/mirrar-background.jpg';
+
 import sliceBackgroundLarge from 'assets/cin-background.jpg';
 import sliceBackgroundPlaceholder from 'assets/slice-background-placeholder.jpg';
 import sliceBackground from 'assets/slice-background.jpg';
-import sliceIrlPlaceholder from 'assets/slice-irl-placeholder.jpg';
-import sliceIrl from 'assets/slice-irl.jpg';
+
 import sliceSidebarAnnotationsLarge from 'assets/cin-1.jpg';
 import sliceSidebarAnnotationsPlaceholder from 'assets/cin-1.jpg';
 import sliceSidebarAnnotations from 'assets/cin-1.jpg';
@@ -110,7 +105,7 @@ export const mirrar = () => {
             </div>
           </ProjectSectionColumns>
         </ProjectSection>
-        <ProjectSection light>
+        <ProjectSection >
           <ProjectSectionContent>
             <ProjectTextRow>
               <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
