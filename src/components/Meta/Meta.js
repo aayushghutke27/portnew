@@ -2,8 +2,7 @@ import Head from 'next/head';
 
 const siteUrl = process.env.NEXT_PUBLIC_WEBSITE_URL;
 const name = 'Ayush Ghutke';
-//const twitterHandle = '@hamishMW';
-//const defaultOgImage = `${siteUrl}/social-image.png`;//
+
 
 export const Meta = ({ title, description, prefix = name, ogImage = defaultOgImage }) => {
   const titleText = [prefix, title].filter(Boolean).join(' | ');
@@ -23,6 +22,7 @@ export const Meta = ({ title, description, prefix = name, ogImage = defaultOgIma
       <meta property="og:title" content={titleText} />
       <meta property="og:site_name" content={name} />
       <meta property="og:type" content="website" />
+
       <meta property="og:url" content={siteUrl} />
       <meta property="og:description" content={description} />
 
