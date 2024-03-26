@@ -267,7 +267,7 @@ export const Home = () => {
           imageUrl={flentCover}
           heading="Unlock Your Learning Potential"
           description="Learnfinity AI Chatbot - Your Personal Guide to Tailored Course Recommendations for Success!"
-          externalUrl="https://www.behance.net/gallery/170470277/Flent-UI"
+          externalUrl="https://www.behance.net/gallery/188052183/Sleek-Music-App-UI"
         />
         <Card
           imageUrl={tealfeedCover}
